@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* .hero {
+  padding: 0;
+  margin: 0;
+  border: 0;
+} */
+
+/* .foodimage{
+  background-image: url(../public/newfood.jpeg);
+  width: 100%;
+  height: 100%;
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 0;
+  margin: 0;
+  border: 0;
+} */
+
+/* @media .foodimage (max-width: 450px) {
+  .foodimage {
+    transform: rotate(90deg);
+    width: 100vh;
+  }
+} */
+
+/* @media (max-width: 450px) {
+  .hero{
+    height: 1000px;
+    width: 450px;
+    overflow: -moz-hidden-unscrollable; 
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .foodimage {
+    transform: rotate(90deg);
+    width: 110vh;
+    overflow: hidden;
+    overflow: -moz-hidden-unscrollable; 
+  } 
+} */
+
+.homeback {
+  background: url('/food.jpeg');
+  background-position: contain;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 91.2vh;
+}
